@@ -1,0 +1,102 @@
+body{
+    background-color: #81BEF7;
+    }
+
+#header {
+          background-color: #8181F7;
+          padding: 30px;
+          height: 40px;
+          color: rgb(255, 255, 255);
+          font-size: 10pt;
+          font-weight: bold;
+          display: flex;
+        }
+
+        #sidebox1, #sidebox2 {
+          position: relative;
+          width: 800px;
+          height:60px;
+          border: 1px solid blue;
+          margin-right: 10px;
+          float: left;
+          background-color: #81BEF7;
+          overflow: auto;
+
+        }
+
+        .contentMain{
+          bottom: 110px;
+          height: 650px;
+          background-color: #8181F7;
+          font-family: "Times";
+          width: 1200px;  
+          float: left;
+          padding: 5px;
+          top: 100px;
+          text-align: center;
+          border: 1px solid black;
+      }
+
+        .contentLeftTwoBox{
+          overflow: auto;
+          text-align: center;
+          border: 1px solid black;
+          height: 310px;
+          background-color: #F5DA81;
+          font-family: "Times";
+          bottom: 15px;
+
+        
+      }
+
+      .contentRight{
+          overflow: auto;
+          text-align: center;
+          border: 1px solid black;
+          height: 620px;
+          background-color: #F5DA81;
+          font-family: "Times";
+          bottom: 15px; 
+        
+      }
+
+       .double {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+         background-color: yellow;
+      }
+
+      .flex-container{
+        position: relative;
+        float: left;
+           display: flex;
+           background-color: red;
+          height: 660px;
+          width: 800px;     }
+
+        .footer {
+          background-color: #81BEF7;
+        position: fixed;
+        left: 205px;
+        right: 0;
+        bottom: 0;
+        height: 50px;
+        text-align: center;
+
+      }
+
+        #sidenav {
+        float: left;
+        width: 200px;
+        background-color: #81BEF7;
+        color: white;
+        height: 762px;
+
+
+      }
+
+      .wholeContainer{
+        position: relative;
+        display: flex;
+      }
